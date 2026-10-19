@@ -1,0 +1,150 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("../images/login.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--text-light-primary);
+  width: 529px;
+  height: 663px;
+  background-color: rgba(24, 26, 28, 0.84);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.title,
+.login {
+  text-align: center;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.userName,
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+span {
+  color: var(--text-light-secondary);
+}
+
+.newAccount {
+  display: flex;
+  justify-content: space-between;
+}
+
+input,
+button {
+  padding: 14px 20px;
+  background-color: transparent;
+  border-radius: 24px;
+  border: 1px solid var(--outline-border);
+  height: 50px;
+  color: var(--text-light-primary);
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#log {
+  background-color: var(--extra-background);
+}
+
+.google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--text-light-primary);
+}
+
+@media (max-width: 580px), (max-height: 900px) {
+  body .heading-3 {
+    font-size: 18px;
+  }
+
+  body .body-medium-regular,
+  body .body-large-medium,
+  body .body-medium-medium,
+  body .body-medium-semiBold,
+  body .body-small-medium {
+    font-size: 10px;
+  }
+
+  .containerLogin {
+    width: 306px;
+    height: 384px;
+    padding: 24px;
+    border-radius: 8px;
+  }
+
+  #logo {
+    width: 94px;
+    height: 24px;
+  }
+  .passwordContainer {
+    gap: 6.93px;
+  }
+
+  .userName,
+  .password {
+    display: flex;
+    flex-direction: column;
+    gap: 3.47px;
+  }
+
+  input,
+  button {
+    padding: 8.09px 11.55px;
+    border-radius: 12px;
+    border: 0.58px solid var(--outline-border);
+    height: 28px;
+    color: var(--text-light-primary);
+  }
+
+  .login {
+    gap: 4px;
+  }
+
+  .google-login {
+    gap: 11.55px;
+  }
+
+  .google-login img {
+    width: 10px;
+  }
+}
