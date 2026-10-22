@@ -3,5 +3,5 @@ export function TextLeftUp() {
 }
 
 export function TextRightUp() {
-  return <p className="body-small-regular" id="text-right-up">Top 10</p>;
+  return <p className="text-right-up body-small-regular">Top 10</p>;
 }

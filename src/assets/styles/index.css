@@ -1,3 +1,4 @@
+*,
 html,
 body {
   margin: 0;
@@ -179,7 +180,7 @@ button {
   border-radius: 24px;
 }
 
-#text-right-up {
+.text-right-up {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -303,10 +304,6 @@ footer {
 }
 
 @media (max-width: 580px), (max-height: 900px) {
-  html {
-    font-size: 5px;
-  }
-
   .home-page {
     gap: 20px;
   }
@@ -330,19 +327,6 @@ footer {
     font-size: 12px;
   }
 
-  .home-page .body-small-bold {
-    font-size: 10px;
-    transform: scale(0.574);
-    transform-origin: left;
-    display: inline-block;
-  }
-
-  #text-right-up {
-    font-size: 10px;
-    transform: scale(0.67);
-    transform-origin: left;
-    display: inline-block;
-  }
 
   .home-page .body-medium-bold {
     font-weight: 500;
@@ -464,21 +448,23 @@ footer {
     height: 151px;
   }
 
-  .text-left-up {
+  .text-left-up.body-small-bold {
     top: 7.65px;
     left: 7.65px;
     padding: 1.9px 4.8px;
     border-radius: 12px;
     border: 0.48px;
+    font-size: 10px;
   }
 
-  #text-right-up {
+  .text-right-up.body-small-regular {
     right: 4px;
     padding: 1.9px;
-    width: 14, 8px;
-    height: 21.8px;
+    width: 22px;
+    height: 32px;
     border-top-right-radius: 1.9px;
     border-bottom-left-radius: 1.9px;
+    font-size: 10px;
   }
 
   .movies {
