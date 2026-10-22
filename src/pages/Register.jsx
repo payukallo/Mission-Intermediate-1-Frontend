@@ -1,68 +1,37 @@
-import { NavLink } from "react-router";
-import "../assets/styles/register.css";
-import MovieLogo from "../assets/logo/movie.png";
-import GoogleLogo from "../assets/logo/google.png"
+import "../assets/styles/loginRegister.css";
+import { Logo } from "../components/loginRegis/logo";
+import { Title } from "../components/loginRegis/title";
+import { UserName } from "../components/loginRegis/userName";
+import { Password } from "../components/loginRegis/password";
+import { HasAccount } from "../components/loginRegis/hasAccount";
+import { LoginRegisBtn } from "../components/loginRegis/loginRegisBtn";
+
+
 
 const RegisterPage = () => {
   return (
     <>
-      <main className="registerPage">
-        <div className="containerRegister">
-          <div className="logo">
-            <img id="logo" src={MovieLogo} width={163} height={44}  />
-          </div>
-          <div className="title">
-            <h3 className="heading-3">Daftar</h3>
-            <p className="body-medium-regular">Selamat datang!</p>
-          </div>
-          <div className="userName body-large-medium">
-            <label htmlFor="userName">Username</label>
-            <input
-              className="body-medium-regular"
-              id="userName"
-              type="text"
-              placeholder="Masukkan username"
-            />
-          </div>
-          <div className="password body-large-medium">
-            <label htmlFor="password">Kata Sandi</label>
-            <input
-              className="body-medium-regular"
-              id="password"
-              type="password"
-              placeholder="Masukkan kata sandi"
-            />
-          </div>
-          <div className="password-container">
-            <div className="password body-large-medium">
-              <label htmlFor="password">Konfirmasi Kata Sandi</label>
-              <input
-                className="body-medium-regular"
-                id="password"
-                type="password"
-                placeholder="Masukkan kata sandi"
+      <main className="register-page">
+        <form action="" method="post">
+          <div className="container-register">
+            <Logo />
+            <Title title={"Daftar"} subTitle={"Selamat datang!"} />
+            <UserName />
+            <Password
+              paraPassword={"Kata Sandi"}
               />
+            <div className="password-container">
+              <Password
+              paraPassword={"Konfirmasi Kata Sandi"}
+              />
+              <HasAccount/>
             </div>
-            <div className="account body-medium-regular">
-              <span>
-                Sudah punya akun?{" "}
-                  <NavLink to="/login" className="body-small-regular">
-                  Masuk
-                </NavLink>
-              </span>
-            </div>
+            <LoginRegisBtn
+            upBtn={"Daftar"}
+            downBtn={"Daftar dengan Google"}
+            />
           </div>
-          <div className="login body-medium-semiBold">
-            <button className="body-medium-semiBold" id="regis">
-              Daftar
-            </button>
-            <span className="body-small-medium">Atau</span>
-            <button className="google-login body-medium-semiBold">
-              <img src={GoogleLogo} width={18} />
-              Daftar dengan Goggle
-            </button>
-          </div>
-        </div>
+        </form>
       </main>
     </>
   );

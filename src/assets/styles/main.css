@@ -3,6 +3,10 @@
 
 /* Heading */
 
+button:hover {
+  cursor: pointer;
+}
+
 .heading-1 {
   font-family: "Lato";
   font-weight: 700;
@@ -312,4 +316,3 @@
   border-radius: 48px;
   border-color: var(--dark-disable);
 }
-

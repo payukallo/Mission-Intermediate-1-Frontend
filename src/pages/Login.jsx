@@ -1,60 +1,27 @@
-import { NavLink } from "react-router";
-import "../assets/styles/login.css";
-import MovieLogo from "../assets/logo/movie.png";
-import GoogleLogo from "../assets/logo/google.png";
+import "../assets/styles/loginRegister.css";
+import { Logo } from "../components/loginRegis/logo";
+import { Title } from "../components/loginRegis/title";
+import { UserName } from "../components/loginRegis/userName";
+import { Password } from "../components/loginRegis/password";
+import { NewAccount } from "../components/loginRegis/newAccount";
+import { LoginRegisBtn } from "../components/loginRegis/loginRegisBtn";
 
 const LoginPage = () => {
   return (
     <>
-      <main className="loginPage">
-        <div className="containerLogin">
-          <div className="logo">
-            <img id="logo" src={MovieLogo} width={163} height={44} />
-          </div>
-          <div className="title">
-            <h3 className="heading-3">Masuk</h3>
-            <p className="body-medium-regular">Selamat datang kembali</p>
-          </div>
-          <div className="userName body-large-medium">
-            <label htmlFor="userName">Username</label>
-            <input
-              className="body-medium-regular"
-              id="userName"
-              type="text"
-              placeholder="Masukkan username"
-            />
-          </div>
-          <div className="password-container">
-            <div className="password body-large-medium">
-              <label htmlFor="password">Kata Sandi</label>
-              <input
-                className="body-medium-regular"
-                id="password"
-                type="password"
-                placeholder="Masukkan kata sandi"
-              />
+      <main className="login-page">
+        <form action="" method="get">
+          <div className="container-login">
+            <Logo />
+            <Title title={"Masuk"} subTitle={"Selamat datang kembali"} />
+            <UserName />
+            <div className="password-container">
+              <Password paraPassword={"Kata Sandi"} />
+              <NewAccount/>
             </div>
-            <div className="newAccount body-medium-regular">
-              <span>
-                Belum punya akun?{" "}
-                <NavLink to="/register" className="body-small-regular">
-                  Daftar
-                </NavLink>
-              </span>
-              <a href="">Lupa kata sandi?</a>
-            </div>
+            <LoginRegisBtn upBtn={"Masuk"} downBtn={"Masuk dengan Google"} />
           </div>
-          <div className="login">
-            <button className="body-medium-semiBold" id="log">
-              Masuk
-            </button>
-            <span className="body-small-medium">Atau</span>
-            <button className="google-login body-medium-semiBold">
-              <img src={GoogleLogo} width={18} />
-              Masuk dengan Goggle
-            </button>
-          </div>
-        </div>
+        </form>
       </main>
     </>
   );
