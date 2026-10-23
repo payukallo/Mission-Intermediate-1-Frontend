@@ -1,5 +1,8 @@
 import MovieLogo from "../../assets/logo/movie.png";
 import Profile from "../../assets/logo/profile.png";
+import Profil from "../../assets/logo/profil.png";
+import Star from "../../assets/logo/star.png";
+import Exit from "../../assets/logo/keluar.png";
 
 export function Navbar() {
   return (
@@ -11,12 +14,34 @@ export function Navbar() {
         <a href="">Daftar Saya</a>
       </div>
       <div className="profile">
-        <img src={Profile} />
-        <select name="account" id="account" className="body-small-medium">
-          <option>Profil</option>
-          <option>Ubah Premium</option>
-          <option>Keluar</option>
-        </select>
+        <img src={Profile} />{" "}
+        <ul id="account" className="body-regular-regular">
+          <li>
+            <a href="">
+              <strong>V</strong>
+            </a>
+            <ul>
+              <li>
+                <a href="">
+                  <img src={Profil} alt="" />
+                  Profil saya
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src={Star} alt="" />
+                  Ubah Premium
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src={Exit} alt="" />
+                  Keluar
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </nav>
   );

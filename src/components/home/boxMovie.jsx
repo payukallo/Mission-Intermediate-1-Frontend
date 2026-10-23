@@ -1,12 +1,13 @@
 export function BoxMovie(props) {
-  const { movieImg, text, movieTitle, movieRating } = props;
+  const { movieImg, textNewEpisode, textTop10, textTitle, textRating} = props;
   return (
     <>
       <img src={movieImg} alt="" />
       <div>
-        {text}
-        <p className="text-left-down heading-6">{movieTitle}</p>
-        <p className="text-right-down body-small-regular">{movieRating}</p>
+        <p className="text-left-down body-small-regular">{textTitle}</p>
+        {textNewEpisode}
+        {textTop10}
+        {textRating}
       </div>
     </>
   );

@@ -13,7 +13,7 @@ const RegisterPage = () => {
     <>
       <main className="register-page">
         <form action="" method="post">
-          <div className="container-register">
+          <div className="register-container">
             <Logo />
             <Title title={"Daftar"} subTitle={"Selamat datang!"} />
             <UserName />

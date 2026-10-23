@@ -3,7 +3,7 @@ import Movie2 from "../../assets/images/movie2.png";
 import Movie3 from "../../assets/images/movie3.png";
 import Movie4 from "../../assets/images/movie4.png";
 import { BoxMovie } from "./boxMovie";
-import { TextLeftUp } from "./textMovieImage";
+import { MovieRating, NewEpisode } from "./textMovieImage";
 
 
 export function ContinueMovie() {
@@ -14,30 +14,38 @@ export function ContinueMovie() {
         <div className="box-top">
           <BoxMovie
           movieImg={Movie1}
-          movieTitle={"Don't Look Up"}
-          movieRating={" 4.5/5"}
+          textTitle={"Don't Look Up"}
+          textRating={
+          <MovieRating 
+          movieRating={"4.5/5"}/>}
           />
           </div>
           <div className="box-top">
           <BoxMovie
           movieImg={Movie2}
-          movieTitle={"All of Us Dead"}
-          movieRating={" 4.2/5"}
+          textTitle={"All of Us Dead"}
+          textRating={
+          <MovieRating 
+          movieRating={"4.2/5"}/>}
           />
           </div>
           <div className="box-top">
           <BoxMovie
           movieImg={Movie3}
-          text={<TextLeftUp/>}
-          movieTitle={"Blue Lock"}
-          movieRating={" 4.6/5"}
+          textNewEpisode={<NewEpisode/>}
+          textTitle={"Blue Lock"}
+          textRating={
+          <MovieRating 
+          movieRating={"4.6/5"}/>}
           />
           </div>
           <div className="box-top">
           <BoxMovie
           movieImg={Movie4}
-          movieTitle={"A Man Called Otto"}
-          movieRating={" 4.4/5"}
+          textTitle={"A Man Called Otto"}
+          textRating={
+          <MovieRating 
+          movieRating={"4.4/5"}/>}
           />
           </div>
       </div>

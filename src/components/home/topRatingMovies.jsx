@@ -4,7 +4,7 @@ import Movie3 from "../../assets/images/movie7.png";
 import Movie4 from "../../assets/images/movie8_18.png";
 import Movie5 from "../../assets/images/movie9_17.png";
 import { BoxMovie } from "./boxMovie";
-import { TextLeftUp, TextRightUp } from "./textMovieImage";
+import { NewEpisode, Top10 } from "./textMovieImage";
 
 export function TopRating() {
   return (
@@ -12,7 +12,7 @@ export function TopRating() {
       <h3 className="heading-3">Top Rating Film dan Series Hari Ini</h3>
       <div className="movie-list">
         <div className="box">
-          <BoxMovie movieImg={Movie1} text={<TextLeftUp />} />
+          <BoxMovie movieImg={Movie1} textNewEpisode={<NewEpisode />} />
         </div>
         <div className="box">
           <BoxMovie movieImg={Movie2} />
@@ -21,10 +21,10 @@ export function TopRating() {
           <BoxMovie movieImg={Movie3} />
         </div>
         <div className="box">
-          <BoxMovie movieImg={Movie4} text={<TextLeftUp />} />
+          <BoxMovie movieImg={Movie4} textNewEpisode={<NewEpisode />}  />
         </div>
         <div className="box">
-          <BoxMovie movieImg={Movie5} text={<TextRightUp />} />
+          <BoxMovie movieImg={Movie5} textTop10={<Top10 />} />
         </div>
       </div>
     </div>

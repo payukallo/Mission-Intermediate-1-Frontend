@@ -11,7 +11,7 @@ const LoginPage = () => {
     <>
       <main className="login-page">
         <form action="" method="get">
-          <div className="container-login">
+          <div className="login-container">
             <Logo />
             <Title title={"Masuk"} subTitle={"Selamat datang kembali"} />
             <UserName />
