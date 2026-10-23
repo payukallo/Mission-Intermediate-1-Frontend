@@ -1,7 +1,7 @@
-@import url("./home/navbar.css");
-@import url("./home/header.css");
-@import url("./home/content.css");
-@import url("./home/footer.css");
+@import url("./navbar.css");
+@import url("./header.css");
+@import url("./content.css");
+@import url("./footer.css");
 
 *,
 html,
@@ -42,6 +42,10 @@ body {
   .home-page .body-medium-medium,
   .home-page .body-small-regular {
     font-size: 12px;
+  }
+  .home-page .body-small-bold,
+  .home-page .text-right-up.body-small-regular {
+    font-size: 10px;
   }
 
   .home-page .body-regular-regular {

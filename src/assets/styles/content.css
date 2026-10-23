@@ -109,16 +109,16 @@
     height: 151px;
   }
 
-  .text-left-up.body-small-bold {
+  .text-left-up {
     top: 7.65px;
     left: 7.65px;
-    padding: 1.9px 4.8px;
+    padding: 2px 4.8px;
     border-radius: 12px;
     border: 0.48px;
     font-size: 10px;
   }
 
-  .text-right-up.body-small-regular {
+  .text-right-up {
     right: 4px;
     padding: 1.9px;
     width: 22px;

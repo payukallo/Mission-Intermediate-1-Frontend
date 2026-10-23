@@ -3,6 +3,7 @@ import Profile from "../../assets/logo/profile.png";
 import Profil from "../../assets/logo/profil.png";
 import Star from "../../assets/logo/star.png";
 import Exit from "../../assets/logo/keluar.png";
+import { NavLink } from "react-router";
 
 export function Navbar() {
   return (
@@ -34,10 +35,10 @@ export function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="">
+                <NavLink to="/login">
                   <img src={Exit} alt="" />
                   Keluar
-                </a>
+                </NavLink>
               </li>
             </ul>
           </li>

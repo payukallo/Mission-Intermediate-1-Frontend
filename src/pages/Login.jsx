@@ -1,4 +1,4 @@
-import "../assets/styles/loginRegister.css";
+import "../assets/styles/login.css";
 import { Logo } from "../components/loginRegis/logo";
 import { Title } from "../components/loginRegis/title";
 import { UserName } from "../components/loginRegis/userName";
