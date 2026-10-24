@@ -1,6 +1,6 @@
 import GoogleLogo from "../../assets/logo/google.png";
 export function LoginRegisBtn(props) {
-  const{upBtn, downBtn} = props
+  const { upBtn, downBtn } = props;
   return (
     <div className="login-regis-btn">
       <button className="body-medium-semiBold log" type="submit">

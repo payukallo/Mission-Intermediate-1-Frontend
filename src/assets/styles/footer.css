@@ -4,7 +4,6 @@ footer {
   width: 1440px;
   height: 284px;
   padding: 60px 80px;
-  margin-top: 80px;
   border-top: 1px solid #e7e3fc3b;
 }
 
@@ -66,11 +65,17 @@ footer {
 }
 
 @media (max-width: 580px), (max-height: 900px) {
+  body .body-medium-medium {
+      font-size: 12px;
+    }
+  body .body-medium-bold {
+    font-weight: 500;
+  }
+
   footer {
     display: flex;
     flex-direction: column;
     width: 360px;
-    margin-top: 27px;
     height: auto;
     padding: 20px;
     gap: 40px;

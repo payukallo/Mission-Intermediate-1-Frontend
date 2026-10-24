@@ -1,5 +1,5 @@
 export function Password(props) {
-  const {paraPassword} = props
+  const { paraPassword } = props;
   return (
     <div className="password body-large-medium">
       <label htmlFor="password">{paraPassword}</label>

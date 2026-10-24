@@ -9,14 +9,18 @@ export function Navbar() {
   return (
     <nav className="body-large-medium">
       <div className="navbar">
-        <img className="logo" src={MovieLogo} width={163} height={44} />
+        <NavLink to="/">
+          <img className="logo" src={MovieLogo} width={163} height={44} />
+        </NavLink>
         <a href="">Series</a>
         <a href="">Film</a>
-        <a href="">Daftar Saya</a>
+        <NavLink to="/my_list_page">
+          Daftar Saya
+        </NavLink>
       </div>
       <div className="profile">
         <img src={Profile} />{" "}
-        <ul id="account" className="body-regular-regular">
+        <ul id="account" className="body-small-medium">
           <li>
             <a href="">
               <strong>V</strong>

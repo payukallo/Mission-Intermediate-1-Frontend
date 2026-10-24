@@ -27,7 +27,7 @@
 }
 
 @media (max-width: 580px), (max-height: 900px) {
-  .register-page .heading-3 {
+  .login-page .heading-3 {
     font-size: 18px;
   }
 

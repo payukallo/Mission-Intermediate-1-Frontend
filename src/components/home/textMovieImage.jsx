@@ -1,14 +1,17 @@
-
-
 export function NewEpisode() {
-  return <p className="text-left-up body-small-bold">Episode Baru</p>;
+  return <p className="new-episode body-small-bold">Episode Baru</p>;
 }
 
 export function Top10() {
-  return <p className="text-right-up body-small-regular">Top 10</p>;
+  return <p className="top10 body-small-regular">Top 10</p>;
 }
 
-export function MovieRating(props) {
-  const {movieRating} = props
-  return <p className="text-right-down body-small-regular">&#9733;&nbsp;{movieRating}</p>;
+export function BottomText(props) {
+  const {title, rating} = props
+  return (
+    <div className="bottom-text">
+      <p className="heading-6">{title}</p>
+      <p className="body-small-regular">{rating}</p>
+    </div>
+  );
 }

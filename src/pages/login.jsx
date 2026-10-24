@@ -17,7 +17,7 @@ const LoginPage = () => {
             <UserName />
             <div className="password-container">
               <Password paraPassword={"Kata Sandi"} />
-              <NewAccount/>
+              <NewAccount />
             </div>
             <LoginRegisBtn upBtn={"Masuk"} downBtn={"Masuk dengan Google"} />
           </div>

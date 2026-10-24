@@ -3,14 +3,6 @@
 @import url("./content.css");
 @import url("./footer.css");
 
-*,
-html,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -20,39 +12,36 @@ body {
   background-color: var(--page-header-background);
 }
 
+.home-page footer {
+  margin-top: 80px;
+}
+
 @media (max-width: 580px), (max-height: 900px) {
   .home-page {
-    gap: 20px;
+    width: 360px;
   }
 
-  .home-page .heading-1 {
+  body .heading-1 {
     font-size: 24px;
   }
 
-  .home-page .heading-3 {
+  body .heading-3 {
     font-size: 20px;
   }
 
-  .home-page .heading-6 {
+  body .heading-6 {
     font-size: 14px;
   }
 
-  .home-page .body-large-medium,
-  .home-page .body-large-regular,
-  .home-page .body-medium-medium,
-  .home-page .body-small-regular {
+  body .body-large-regular,
+  body .body-small-regular {
     font-size: 12px;
   }
-  .home-page .body-small-bold,
-  .home-page .text-right-up.body-small-regular {
+  body .body-small-bold {
     font-size: 10px;
   }
 
-  .home-page .body-regular-regular {
-    font-size: 10px;
-  }
-
-  .home-page .body-medium-bold {
-    font-weight: 500;
+  .home-page footer {
+    margin-top: 27px;
   }
 }

@@ -9,15 +9,15 @@ const HomePage = () => {
   return (
     <>
       <main className="home-page">
-        <Navbar/>
+        <Navbar />
         <header>
           <div className="header">
-              <HeadText/>
-              <HeadBtn/>
+            <HeadText />
+            <HeadBtn />
           </div>
         </header>
-        <ContentMovie/>
-        <Footer/>
+        <ContentMovie />
+        <Footer />
       </main>
     </>
   );
