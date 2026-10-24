@@ -75,6 +75,7 @@ a {
 }
 
 @media (max-width: 580px), (max-height: 900px) {
+  
   nav.body-large-medium,
   nav .body-small-medium {
     font-size: 10px;
