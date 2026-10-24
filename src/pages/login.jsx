@@ -1,10 +1,10 @@
 import "../assets/styles/login.css";
-import { Logo } from "../components/loginRegis/logo";
-import { Title } from "../components/loginRegis/title";
-import { UserName } from "../components/loginRegis/userName";
-import { Password } from "../components/loginRegis/password";
-import { NewAccount } from "../components/loginRegis/newAccount";
-import { LoginRegisBtn } from "../components/loginRegis/loginRegisBtn";
+import { Logo } from "../components/logo";
+import { Title } from "../components/title";
+import { UserName } from "../components/userName";
+import { Password } from "../components/password";
+import { NewAccount } from "../components/newAccount";
+import { LoginRegisBtn } from "../components/loginRegisBtn";
 
 const LoginPage = () => {
   return (

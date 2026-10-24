@@ -1,8 +1,8 @@
-import MovieLogo from "../../assets/logo/movie.png";
-import Profile from "../../assets/logo/profile.png";
-import Profil from "../../assets/logo/profil.png";
-import Star from "../../assets/logo/star.png";
-import Exit from "../../assets/logo/keluar.png";
+import MovieLogo from "../assets/logo/movie.png";
+import Profile from "../assets/logo/profile.png";
+import Profil from "../assets/logo/profil.png";
+import Star from "../assets/logo/star.png";
+import Exit from "../assets/logo/keluar.png";
 import { NavLink } from "react-router";
 
 export function Navbar() {
@@ -12,11 +12,9 @@ export function Navbar() {
         <NavLink to="/">
           <img className="logo" src={MovieLogo} width={163} height={44} />
         </NavLink>
-        <a href="">Series</a>
+        <NavLink to="/series">Series</NavLink>
         <a href="">Film</a>
-        <NavLink to="/my_list_page">
-          Daftar Saya
-        </NavLink>
+        <NavLink to="/my_list">Daftar Saya</NavLink>
       </div>
       <div className="profile">
         <img src={Profile} />{" "}

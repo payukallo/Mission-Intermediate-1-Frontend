@@ -2,7 +2,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: end;
-  background-image: url(../images/navbar-img.png);
   background-position: center center;
   background-size: cover;
   background-repeat: none;
@@ -111,17 +110,16 @@ button {
   }
 
   .head-text {
-    width: 100%;
+    width: 320px;
     height: auto;
-    gap: 10px;
+    gap: 11px;
   }
 
   .head-text p {
-    display: none;
-  }
-
-  .head-text::after {
-    content: "Sebuah benda tak di kenal mengambil ahli dunia. Dalam keputusasaan, Departement Pertahanan mulai merekrut..";
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
     font-size: 12px;
   }
 

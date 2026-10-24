@@ -1,4 +1,4 @@
-import MovieLogo from "../../assets/logo/movie.png";
+import MovieLogo from "../assets/logo/movie.png";
 
 export function Logo() {
   return (

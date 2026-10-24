@@ -3,6 +3,7 @@ import LoginPage from "../pages/login";
 import RegisterPage from "../pages/register";
 import HomePage from "../pages/home";
 import MyListPage from "../pages/myList";
+import SeriesPage from "../pages/series";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -17,7 +18,11 @@ export const router = createBrowserRouter([
     Component: RegisterPage,
   },
   {
-    path: "/my_list_page",
+    path: "/my_list",
     Component: MyListPage,
+  },
+  {
+    path: "/series",
+    Component: SeriesPage,
   },
 ]);

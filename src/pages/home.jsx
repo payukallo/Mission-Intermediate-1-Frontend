@@ -1,9 +1,9 @@
 import "../assets/styles/index.css";
-import { Navbar } from "../components/home/navbar";
-import { HeadText } from "../components/home/headText";
-import { HeadBtn } from "../components/home/headBtn";
-import { ContentMovie } from "../components/home/contentMovies";
-import { Footer } from "../components/home/footer";
+import { Navbar } from "../components/navbar";
+import { HeadTextHome } from "../components/headText";
+import { HeadBtn } from "../components/headBtn";
+import { ContentMovie } from "../components/contentMovies";
+import { Footer } from "../components/footer";
 
 const HomePage = () => {
   return (
@@ -12,7 +12,7 @@ const HomePage = () => {
         <Navbar />
         <header>
           <div className="header">
-            <HeadText />
+            <HeadTextHome />
             <HeadBtn />
           </div>
         </header>

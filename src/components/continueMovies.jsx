@@ -1,11 +1,12 @@
-import Movie1 from "../../assets/images/don't-look-up-width.png";
-import Movie2 from "../../assets/images/all-of-us-are-dead-width.png";
-import Movie3 from "../../assets/images/blue-lock-width.png";
-import Movie4 from "../../assets/images/a-man-called-otto-width.png";
+import Movie1 from "../assets/images/don't-look-up-width.png";
+import Movie2 from "../assets/images/all-of-us-are-dead-width.png";
+import Movie3 from "../assets/images/blue-lock-width.png";
+import Movie4 from "../assets/images/a-man-called-otto-width.png";
 import { BoxMovie } from "./boxMovie";
 import { BottomText, NewEpisode } from "./textMovieImage";
 
 export function ContinueMovie() {
+
   return (
     <div className="continue-movies">
       <h3 className="heading-3">Melanjutkan Tonton Film</h3>

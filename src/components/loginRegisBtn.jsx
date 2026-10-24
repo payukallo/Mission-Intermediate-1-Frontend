@@ -1,4 +1,4 @@
-import GoogleLogo from "../../assets/logo/google.png";
+import GoogleLogo from "../assets/logo/google.png";
 export function LoginRegisBtn(props) {
   const { upBtn, downBtn } = props;
   return (

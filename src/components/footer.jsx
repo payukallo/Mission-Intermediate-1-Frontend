@@ -1,4 +1,4 @@
-import MovieLogo from "../../assets/logo/movie.png";
+import MovieLogo from "../assets/logo/movie.png";
 import { RightFoot } from "./rightFoot";
 export function Footer() {
   return (
