@@ -14,6 +14,7 @@ body {
 
 .home-page header {
   background-image: url(../images/navbar-img.png);
+  background-position: center center;
 }
 
 .home-page footer {
@@ -28,5 +29,4 @@ body {
   .home-page footer {
     margin-top: 27px;
   }
-
 }

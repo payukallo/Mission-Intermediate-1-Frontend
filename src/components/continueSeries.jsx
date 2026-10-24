@@ -1,7 +1,7 @@
-import Movie1 from "../assets/images/don't-look-up-width.png";
-import Movie2 from "../assets/images/all-of-us-are-dead-width.png";
-import Movie3 from "../assets/images/blue-lock-width.png";
-import Movie4 from "../assets/images/a-man-called-otto-width.png";
+import Movie1 from "../assets/images/alice-in-borderland-width.png";
+import Movie2 from "../assets/images/my-perfect-stranger-width.png";
+import Movie3 from "../assets/images/all-of-us-are-dead-width.png";
+import Movie4 from "../assets/images/ted-lasso-width.png";
 import { BoxMovie } from "./boxMovie";
 import { BottomText, NewEpisode } from "./textMovieImage";
 
@@ -13,35 +13,35 @@ export function ContinueSeries() {
       <div className="movie-top">
         <div className="box-top">
           <BoxMovie movieImg={Movie1} newEpisode={<NewEpisode/>} />
-          <BottomText title={"Don't Look Up"} rating={`\u2605 4.5/5`} />
+          <BottomText title={"Alice in Borderland"} rating={`\u2605 4.5/5`} />
         </div>
         <div className="box-top">
           <BoxMovie movieImg={Movie2} newEpisode={<NewEpisode/>}/>
-          <BottomText title={"All of Us Dead"} rating={`\u2605 4.2/5`} />
+          <BottomText title={"My Perfect Stranger"} rating={`\u2605 4.6/5`} />
         </div>
         <div className="box-top">
           <BoxMovie movieImg={Movie3} newEpisode={<NewEpisode />} />
-          <BottomText title={"Blue Lock"} rating={`\u2605 4.6/5`} />
+          <BottomText title={"All Of Us Are Dead"} rating={`\u2605 4.2/5`} />
         </div>
         <div className="box-top">
           <BoxMovie movieImg={Movie4} newEpisode={<NewEpisode/>}/>
-          <BottomText title={"A Man Called Otto"} rating={`\u2605 4.4/5`} />
+          <BottomText title={"Ted Lasso"} rating={`\u2605 4.4/5`} />
         </div>
         <div className="box-top">
-          <BoxMovie movieImg={Movie1} newEpisode={<NewEpisode/>}/>
-          <BottomText title={"Don't Look Up"} rating={`\u2605 4.5/5`} />
+          <BoxMovie movieImg={Movie1} newEpisode={<NewEpisode/>} />
+          <BottomText title={"Alice in Borderland"} rating={`\u2605 4.5/5`} />
         </div>
         <div className="box-top">
           <BoxMovie movieImg={Movie2} newEpisode={<NewEpisode/>}/>
-          <BottomText title={"All of Us Dead"} rating={`\u2605 4.2/5`} />
+          <BottomText title={"My Perfect Stranger"} rating={`\u2605 4.6/5`} />
         </div>
         <div className="box-top">
           <BoxMovie movieImg={Movie3} newEpisode={<NewEpisode />} />
-          <BottomText title={"Blue Lock"} rating={`\u2605 4.6/5`} />
+          <BottomText title={"All Of Us Are Dead"} rating={`\u2605 4.2/5`} />
         </div>
         <div className="box-top">
           <BoxMovie movieImg={Movie4} newEpisode={<NewEpisode/>}/>
-          <BottomText title={"A Man Called Otto"} rating={`\u2605 4.4/5`} />
+          <BottomText title={"Ted Lasso"} rating={`\u2605 4.4/5`} />
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import Movie4 from "../assets/images/a-man-called-otto-width.png";
 import { BoxMovie } from "./boxMovie";
 import { BottomText, NewEpisode } from "./textMovieImage";
 
-export function ContinueMovie() {
+export function ContinueMovies() {
 
   return (
     <div className="continue-movies">

@@ -13,7 +13,7 @@ export function Navbar() {
           <img className="logo" src={MovieLogo} width={163} height={44} />
         </NavLink>
         <NavLink to="/series">Series</NavLink>
-        <a href="">Film</a>
+        <NavLink to="/movies">Film</NavLink>
         <NavLink to="/my_list">Daftar Saya</NavLink>
       </div>
       <div className="profile">

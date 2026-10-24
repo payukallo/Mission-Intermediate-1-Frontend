@@ -2,7 +2,7 @@ import "../assets/styles/index.css";
 import { Navbar } from "../components/navbar";
 import { HeadTextHome } from "../components/headText";
 import { HeadBtn } from "../components/headBtn";
-import { ContentMovie } from "../components/contentMovies";
+import { HomeContent } from "../components/homeContent";
 import { Footer } from "../components/footer";
 
 const HomePage = () => {
@@ -16,7 +16,7 @@ const HomePage = () => {
             <HeadBtn />
           </div>
         </header>
-        <ContentMovie />
+        <HomeContent />
         <Footer />
       </main>
     </>

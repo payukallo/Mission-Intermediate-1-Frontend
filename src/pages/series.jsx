@@ -3,7 +3,7 @@ import { Navbar } from "../components/navbar";
 import { HeadTextSeries } from "../components/headText";
 import { HeadBtn } from "../components/headBtn";
 import { Footer } from "../components/footer";
-import { ContentSeries } from "../components/contentSeries";
+import { SeriesContent } from "../components/seriesContent";
 
 const SeriesPage = () => {
   return (
@@ -16,7 +16,7 @@ const SeriesPage = () => {
             <HeadBtn />
           </div>
         </header>
-        <ContentSeries />
+        <SeriesContent />
         <Footer />
       </main>
     </>

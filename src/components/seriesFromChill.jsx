@@ -1,8 +1,8 @@
-import Movie1 from "../assets/images/suzume.png";
-import Movie2 from "../assets/images/jurassic-world.png";
-import Movie3 from "../assets/images/sonic-2.png";
+import Movie1 from "../assets/images/little-mermaid.png";
+import Movie2 from "../assets/images/duty-after-school.png";
+import Movie3 from "../assets/images/big-hero-5.png";
 import Movie4 from "../assets/images/all-of-us-are-dead.png";
-import Movie5 from "../assets/images/big-hero-5.png";
+import Movie5 from "../assets/images/missing.png";
 import { BoxMovie } from "./boxMovie";
 import { Premium, Top10 } from "./textMovieImage";
 

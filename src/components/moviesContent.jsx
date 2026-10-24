@@ -1,13 +1,13 @@
 import { NewRelease } from "./newReleaseMovies";
 import { Trending } from "./trendingMovies";
 import { TopRating } from "./topRatingMovies";
-import { ContinueSeries } from "./continueSeries";
 import { SeriesFromChill } from "./seriesFromChill";
+import { ContinueMovies } from "./continueMovies";
 
-export function ContentSeries() {
+export function MoviesContent() {
   return (
     <div className="content">
-      <ContinueSeries />
+      <ContinueMovies />
       <SeriesFromChill/>
       <TopRating />
       <Trending />

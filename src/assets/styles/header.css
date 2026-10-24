@@ -2,7 +2,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: end;
-  background-position: center center;
   background-size: cover;
   background-repeat: none;
   width: 1440px;

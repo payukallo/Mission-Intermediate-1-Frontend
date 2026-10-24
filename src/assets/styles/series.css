@@ -14,6 +14,7 @@ body {
 
 .series-page header {
   background-image: url(../images/navbar-img-series.png);
+  background-position: 50% 15% ;
 }
 
 .series-page footer {
