@@ -65,10 +65,11 @@ footer {
 }
 
 @media (max-width: 580px), (max-height: 900px) {
-  body .body-medium-medium {
-      font-size: 12px;
-    }
-  body .body-medium-bold {
+  footer .body-medium-medium {
+    font-size: 12px;
+  }
+
+  footer .body-medium-bold {
     font-weight: 500;
   }
 

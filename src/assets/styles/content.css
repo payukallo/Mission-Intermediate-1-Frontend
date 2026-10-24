@@ -151,6 +151,19 @@
 }
 
 @media (max-width: 580px), (max-height: 900px) {
+
+  .content .heading-3 {
+    font-size: 20px;
+  }
+
+  .content .heading-6 {
+    font-size: 14px;
+  }
+  .content .body-small-regular {
+    font-size: 12px;
+  }
+
+
   .content {
     display: flex;
     flex-direction: column;
@@ -190,10 +203,7 @@
   .movie-list::scroll-button(right),
   .movie-top::scroll-button(left),
   .movie-list::scroll-button(left) {
-    font-size: 16px;
-    width: 24px;
-    height: 24px;
-    border-radius: 16px;
+    display: none;
   }
 
   .box-top {

@@ -95,6 +95,15 @@ button {
     height: 225px;
   }
 
+  header .heading-1 {
+    font-size: 24px;
+  }
+
+  header .body-large-regular,
+  header .body-large-medium {
+    font-size: 12px;
+  }
+
   .header {
     width: 100%;
     padding: 18px;
