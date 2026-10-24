@@ -50,6 +50,7 @@ a {
   right: 80px;
   width: 158px;
   padding: 4px;
+  z-index: 2;
   background-color: var(--page-header-background);
 }
 
