@@ -1,7 +1,7 @@
 import "../assets/styles/myList.css";
-import { Footer } from "../components/footer";
-import { Navbar } from "../components/navbar";
-import { MyListMovies } from "../components/myListMovies.jsx";
+import { Footer } from "../components/Footer.jsx";
+import { Navbar } from "../components/Navbar.jsx";
+import { MyListMovies } from "../components/MyListMovies.jsx";
 
 const MyListPage = () => {
   return (
