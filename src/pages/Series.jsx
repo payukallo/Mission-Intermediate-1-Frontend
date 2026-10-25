@@ -1,8 +1,8 @@
 import "../assets/styles/series.css";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../layouts/Navbar";
 import { HeadTextSeries } from "../components/HeadText";
 import { HeadBtn } from "../components/HeadBtn";
-import { Footer } from "../components/Footer";
+import { Footer } from "../layouts/Footer";
 import { SeriesContent } from "../components/SeriesContent";
 
 const SeriesPage = () => {

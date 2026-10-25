@@ -1,9 +1,9 @@
 import "../assets/styles/index.css";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../layouts/Navbar";
 import { HeadTextHome } from "../components/HeadText";
 import { HeadBtn } from "../components/HeadBtn";
 import { HomeContent } from "../components/HomeContent";
-import { Footer } from "../components/Footer";
+import { Footer } from "../layouts/Footer";
 
 const HomePage = () => {
   return (

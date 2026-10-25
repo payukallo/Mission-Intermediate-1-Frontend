@@ -1,8 +1,8 @@
 import "../assets/styles/movies.css";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../layouts/Navbar";
 import { HeadTextMovies } from "../components/HeadText";
 import { HeadBtn } from "../components/HeadBtn";
-import { Footer } from "../components/Footer";
+import { Footer } from "../layouts/Footer";
 import { MoviesContent } from "../components/MoviesContent";
 
 const MoviesPage = () => {
